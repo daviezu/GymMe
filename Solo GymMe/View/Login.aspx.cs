@@ -24,9 +24,9 @@ namespace Solo_GymMe.View
             bool rememberMe = chkRememberMe.Checked;
 
             string validationMessage = LoginController.ValidateLogin(username, password);
-            if(validationMessage != null)
+            if(validationMessage == null)
             {
-                MsUser checkUser = LoginController.checkUserLogin(username, password);
+                MsUser checkUser = LoginController.CheckUserLogin(username, password);
                 if (checkUser != null)
                 {
                     Session["User"] = checkUser;

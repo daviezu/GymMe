@@ -9,6 +9,7 @@ namespace Solo_GymMe.Controller
     public class LoginController
     {
         static LocalDatabaseEntities db = new LocalDatabaseEntities();
+
         public static string ValidateLogin(string username, string password)
         {
             if (string.IsNullOrEmpty(username))
@@ -22,7 +23,7 @@ namespace Solo_GymMe.Controller
             return null;
         }
 
-        public static MsUser checkUserLogin(string username, string password)
+        public static MsUser CheckUserLogin(string username, string password)
         {
             return (from user in db.MsUsers where user.UserName == username && user.UserPassword == password select user).FirstOrDefault();
         }
