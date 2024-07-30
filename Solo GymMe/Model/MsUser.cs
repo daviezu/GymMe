@@ -27,6 +27,7 @@ namespace Solo_GymMe.Model
         public System.DateTime UserDOB { get; set; }
         public string UserGender { get; set; }
         public string UserRole { get; set; }
+        public string UserPassword { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<MsCart> MsCarts { get; set; }
