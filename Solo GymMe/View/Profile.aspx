@@ -23,8 +23,8 @@
         </asp:DropDownList>
         <div>
             <asp:Label ID="lblDOB" Text="Date of birth" runat="server" />
-            <asp:Calendar ID="calDOB" runat="server" OnSelectionChanged="calDOB_SelectionChanged"></asp:Calendar>
-            <asp:TextBox ID="txtDOB" runat="server" ReadOnly="true" />
+<%--            <asp:Calendar ID="calDOB" runat="server" OnSelectionChanged="calDOB_SelectionChanged"></asp:Calendar>--%>
+            <asp:TextBox ID="txtDOB" runat="server" ReadOnly="false" />
         </div>
         <div>
             <asp:Button ID="btnUpdateProfile" Text="Update Profile" runat="server" OnClick="btnUpdateProfile_Click" />

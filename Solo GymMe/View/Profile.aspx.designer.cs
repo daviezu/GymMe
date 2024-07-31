@@ -78,15 +78,6 @@ namespace Solo_GymMe.View
         protected global::System.Web.UI.WebControls.Label lblDOB;
 
         /// <summary>
-        /// calDOB control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Calendar calDOB;
-
-        /// <summary>
         /// txtDOB control.
         /// </summary>
         /// <remarks>

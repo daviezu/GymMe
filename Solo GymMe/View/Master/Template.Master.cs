@@ -1,6 +1,7 @@
 ﻿using Solo_GymMe.Model;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -15,6 +16,7 @@ namespace Solo_GymMe.View.Master
             if (!IsPostBack)
             {
                 MsUser user = Session["User"] as MsUser;
+                Debug.WriteLine(user);
                 if (user != null)
                 {
                     string role = user.UserRole;
@@ -24,8 +26,8 @@ namespace Solo_GymMe.View.Master
                     }
                     else customerNav.Visible = true;
                 }
+                else Response.Redirect("~/View/Home.aspx");
             }
-            else Response.Redirect("~/View/Home.aspx");
         }
 
         protected void btnLogout_Click(object sender, EventArgs e)

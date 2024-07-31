@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|c:\\users\\asus\\documents\\github\\solo-gymme\\solo gymme\\view\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\solo gymme\\view\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\profile.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|c:\\users\\asus\\documents\\github\\solo-gymme\\solo gymme\\view\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|c:\\users\\asus\\documents\\github\\solo-gymme\\solo gymme\\view\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|c:\\users\\asus\\documents\\github\\solo-gymme\\solo gymme\\view\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|c:\\users\\asus\\documents\\github\\solo-gymme\\solo gymme\\view\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|c:\\users\\asus\\documents\\github\\solo-gymme\\solo gymme\\view\\master\\template.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\master\\template.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\solo gymme\\view\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\solo gymme\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|c:\\users\\asus\\documents\\github\\solo-gymme\\solo gymme\\view\\master\\template.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\solo gymme\\view\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\solo gymme\\view\\master\\template.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\master\\template.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\solo gymme\\view\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\profile.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\solo gymme\\view\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\solo gymme\\view\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\solo gymme\\view\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\home.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\solo gymme\\view\\master\\template.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\master\\template.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\solo gymme\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,19 +63,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Register.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\Register.aspx.cs",
+              "RelativeDocumentMoniker": "Solo GymMe\\View\\Register.aspx.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\Register.aspx.cs",
+              "RelativeToolTip": "Solo GymMe\\View\\Register.aspx.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwBgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T03:14:00.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.aspx",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\Register.aspx",
+              "RelativeDocumentMoniker": "Solo GymMe\\View\\Register.aspx",
+              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\Register.aspx",
+              "RelativeToolTip": "Solo GymMe\\View\\Register.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-07-31T03:13:39.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Login.aspx.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\Login.aspx.cs",
               "RelativeDocumentMoniker": "Solo GymMe\\View\\Login.aspx.cs",
               "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\Login.aspx.cs",
               "RelativeToolTip": "Solo GymMe\\View\\Login.aspx.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwB8AAAAfAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwB8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T02:11:12.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Home.aspx",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\Home.aspx",
               "RelativeDocumentMoniker": "Solo GymMe\\View\\Home.aspx",
@@ -80,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Login.aspx",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\Login.aspx",
               "RelativeDocumentMoniker": "Solo GymMe\\View\\Login.aspx",
@@ -99,14 +133,14 @@
               "RelativeDocumentMoniker": "Solo GymMe\\View\\Profile.aspx.cs",
               "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\Profile.aspx.cs",
               "RelativeToolTip": "Solo GymMe\\View\\Profile.aspx.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAcwBMAAAAJAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAmwDkAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T01:35:59.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Profile.aspx",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\Profile.aspx",
               "RelativeDocumentMoniker": "Solo GymMe\\View\\Profile.aspx",
@@ -119,20 +153,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Template.Master.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\Master\\Template.Master.cs",
               "RelativeDocumentMoniker": "Solo GymMe\\View\\Master\\Template.Master.cs",
               "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\Master\\Template.Master.cs",
               "RelativeToolTip": "Solo GymMe\\View\\Master\\Template.Master.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwCsAAAANAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T01:09:15.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Template.Master",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\Master\\Template.Master",
               "RelativeDocumentMoniker": "Solo GymMe\\View\\Master\\Template.Master",
@@ -145,20 +179,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\Controller\\UserController.cs",
               "RelativeDocumentMoniker": "Solo GymMe\\Controller\\UserController.cs",
               "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\Controller\\UserController.cs",
               "RelativeToolTip": "Solo GymMe\\Controller\\UserController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAYwEIAAAAeAAAA",
+              "ViewState": "AQIAADcAAAAAAAAAAAAYwEIAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T00:39:37.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "Solo GymMe\\Repository\\UserRepository.cs",

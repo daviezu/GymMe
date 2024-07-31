@@ -32,11 +32,11 @@ namespace Solo_GymMe.View
             }
             else Response.Redirect("~/View/Login.aspx");
         }
-        protected void calDOB_SelectionChanged(object sender, EventArgs e)
-        {
-            DateTime date = calDOB.SelectedDate;
-            txtDOB.Text = date.ToString("dd MMMM yyyy");
-        }
+        //protected void calDOB_SelectionChanged(object sender, EventArgs e)
+        //{
+        //    DateTime date = calDOB.SelectedDate;
+        //    txtDOB.Text = date.ToString("dd MMMM yyyy");
+        //}
 
         protected void btnUpdateProfile_Click(object sender, EventArgs e)
         {
@@ -47,8 +47,11 @@ namespace Solo_GymMe.View
             string dob = txtDOB.Text;
 
             string validationMessage = UserController.ValidateUpdateProfile(username, email, gender, dob);
+
+            lblMessage.Text = "nikadiwkijfa";
             if (validationMessage == null)
             {
+                lblMessage.Text = "xoxaowoawdoaw";
                 int userID = user.UserID;
                 DateTime dt = Convert.ToDateTime(dob);
 
