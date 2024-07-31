@@ -66,5 +66,11 @@ namespace Solo_GymMe.Controller
         {
             return UserHandler.UpdateUserProfile(userID, username, email, gender, dob);
         }
+
+        public static string UpdateUserPassword(int userID, string oldPassword, string newPassword)
+        {
+            return UserHandler.UpdateUserPassword(userID, oldPassword, newPassword);
+        }
+
     }
 }

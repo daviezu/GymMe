@@ -25,18 +25,30 @@ namespace Solo_GymMe.Repository
         }
         public static bool UpdateUserProfile(int userID, string username, string email, string gender, DateTime dob)
         {
-           MsUser newUser = GetUserByID(userID);
-            if(newUser != null)
+           MsUser currentUser = GetUserByID(userID);
+            if(currentUser != null)
             {
-                newUser.UserName = username;
-                newUser.UserGender = gender;
-                newUser.UserDOB = dob;
-                newUser.UserEmail = email;
+                currentUser.UserName = username;
+                currentUser.UserGender = gender;
+                currentUser.UserDOB = dob;
+                currentUser.UserEmail = email;
 
                 db.SaveChanges();
                 return true;
             }
-            else return false;
+            return false;
+        }
+
+        public static bool UpdateUserPassword(int userID, string oldPassword, string newPassword)
+        {
+            MsUser currentUser = GetUserByID(userID);
+            if(currentUser != null)
+            {
+                currentUser.UserPassword = newPassword;
+                db.SaveChanges();
+                return true;    
+            }
+            return false;
         }
     }
 }

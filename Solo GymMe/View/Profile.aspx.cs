@@ -48,23 +48,28 @@ namespace Solo_GymMe.View
 
             string validationMessage = UserController.ValidateUpdateProfile(username, email, gender, dob);
 
-            lblMessage.Text = "nikadiwkijfa";
             if (validationMessage == null)
             {
-                lblMessage.Text = "xoxaowoawdoaw";
                 int userID = user.UserID;
                 DateTime dt = Convert.ToDateTime(dob);
-
-                string statusMessage = UserController.UpdateUserProfile(userID, username, email, gender, dt);
-                lblMessage.Text = statusMessage;
-
+                lblMessage.Text = UserController.UpdateUserProfile(userID, username, email, gender, dt);
             }
             else lblMessage.Text = validationMessage;
         }
 
         protected void btnUpdatePassword_Click(object sender, EventArgs e)
         {
+            string oldPassword = txtOldPassword.Text;
+            string newPassword = txtNewPassword.Text;
 
+            MsUser user = Session["User"] as MsUser;
+            string validationMessage = UserController.ValidateUpdatePassword(oldPassword, newPassword);
+            if (validationMessage == null)
+            {
+                int userID = user.UserID;
+                lblMessage.Text = UserController.UpdateUserPassword(userID, oldPassword, newPassword);
+            }
+            else lblMessage.Text = validationMessage;
         }
     }
 }

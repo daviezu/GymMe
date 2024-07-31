@@ -13,5 +13,10 @@ namespace Solo_GymMe.Handler
         {
             return UserRepository.UpdateUserProfile(userID, username, email, gender, dob) ? "Profile updated successfully." : "Failed to update profile.";
         }
+
+        public static string UpdateUserPassword(int userID, string oldPassword, string newPassword)
+        {
+            return UserRepository.UpdateUserPassword(userID, oldPassword, newPassword) ? "Password updated succesfully." : "Failed to update password."; 
+        }
     }
 }
