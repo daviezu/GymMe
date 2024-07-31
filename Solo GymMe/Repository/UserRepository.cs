@@ -19,5 +19,24 @@ namespace Solo_GymMe.Repository
             db.SaveChanges();
             return "Registration Success";
         }
+        public static MsUser GetUserByID(int userID)
+        {
+            return (from user in db.MsUsers where user.UserID == userID select user).FirstOrDefault();
+        }
+        public static bool UpdateUserProfile(int userID, string username, string email, string gender, DateTime dob)
+        {
+           MsUser newUser = GetUserByID(userID);
+            if(newUser != null)
+            {
+                newUser.UserName = username;
+                newUser.UserGender = gender;
+                newUser.UserDOB = dob;
+                newUser.UserEmail = email;
+
+                db.SaveChanges();
+                return true;
+            }
+            else return false;
+        }
     }
 }

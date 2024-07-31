@@ -91,6 +91,7 @@
     </Content>
     <Content Include="View\Home.aspx" />
     <Content Include="View\Login.aspx" />
+    <Content Include="View\Profile.aspx" />
     <Content Include="View\Register.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -98,7 +99,9 @@
     <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\RegisterController.cs" />
     <Compile Include="Controller\Singleton.cs" />
+    <Compile Include="Controller\UserController.cs" />
     <Compile Include="Factory\UserFactory.cs" />
+    <Compile Include="Handler\UserHandler.cs" />
     <Compile Include="Model\DatabaseModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -148,6 +151,13 @@
     <Compile Include="View\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="View\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="View\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -176,7 +186,7 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Handler\" />
+    <Folder Include="View\Master\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
