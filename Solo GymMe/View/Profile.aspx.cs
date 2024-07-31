@@ -13,9 +13,25 @@ namespace Solo_GymMe.View
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                LoadUserProfile();
+            }
         }
 
+        private void LoadUserProfile()
+        {
+            MsUser user = Session["User"] as MsUser;
+            if (user != null)
+            {
+                txtUsername.Text = user.UserName;
+                txtEmail.Text = user.UserPassword;
+                ddlGender.SelectedValue = user.UserGender;
+                txtDOB.Text = user.UserDOB.ToString("dd MMMM yyyy");
+                txtOldPassword.Text = user.UserPassword;
+            }
+            else Response.Redirect("~/View/Login.aspx");
+        }
         protected void calDOB_SelectionChanged(object sender, EventArgs e)
         {
             DateTime date = calDOB.SelectedDate;
@@ -37,6 +53,7 @@ namespace Solo_GymMe.View
                 DateTime dt = Convert.ToDateTime(dob);
 
                 string statusMessage = UserController.UpdateUserProfile(userID, username, email, gender, dt);
+                lblMessage.Text = statusMessage;
 
             }
             else lblMessage.Text = validationMessage;
