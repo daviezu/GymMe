@@ -16,7 +16,6 @@ namespace Solo_GymMe.View.Master
             if (!IsPostBack)
             {
                 MsUser user = Session["User"] as MsUser;
-                Debug.WriteLine(user);
                 if (user != null)
                 {
                     string role = user.UserRole;

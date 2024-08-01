@@ -37,7 +37,6 @@ namespace Solo_GymMe.View
         //    DateTime date = calDOB.SelectedDate;
         //    txtDOB.Text = date.ToString("dd MMMM yyyy");
         //}
-
         protected void btnUpdateProfile_Click(object sender, EventArgs e)
         {
             MsUser user = Session["User"] as MsUser;

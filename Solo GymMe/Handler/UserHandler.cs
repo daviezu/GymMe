@@ -23,5 +23,10 @@ namespace Solo_GymMe.Handler
         {
             return UserRepository.UpdateUserPassword(userID, oldPassword, newPassword) ? "Password updated succesfully." : "Failed to update password."; 
         }
+
+        public static MsUser GetUserID(int userID)
+        {
+            return UserRepository.GetUserByID(userID);
+        }
     }
 }

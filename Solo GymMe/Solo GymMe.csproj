@@ -92,9 +92,9 @@
     <Content Include="View\Home.aspx" />
     <Content Include="View\InsertSupplement.aspx" />
     <Content Include="View\Login.aspx" />
-    <Content Include="View\ManageSupplement.aspx" />
     <Content Include="View\Profile.aspx" />
     <Content Include="View\Register.aspx" />
+    <Content Include="View\UpdateSupplement.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -164,13 +164,6 @@
     <Compile Include="View\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="View\ManageSupplement.aspx.cs">
-      <DependentUpon>ManageSupplement.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="View\ManageSupplement.aspx.designer.cs">
-      <DependentUpon>ManageSupplement.aspx</DependentUpon>
-    </Compile>
     <Compile Include="View\Master\Template.Master.cs">
       <DependentUpon>Template.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -191,6 +184,13 @@
     </Compile>
     <Compile Include="View\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\UpdateSupplement.aspx.cs">
+      <DependentUpon>UpdateSupplement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\UpdateSupplement.aspx.designer.cs">
+      <DependentUpon>UpdateSupplement.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

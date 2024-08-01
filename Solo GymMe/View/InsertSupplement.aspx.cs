@@ -29,7 +29,7 @@ namespace Solo_GymMe.View
             string suppTypeIDStr = txtTypeID.Text;
 
             string validationMessage = SupplementController.ValidateSupplement(name, priceStr, expDateStr, suppTypeIDStr);
-            if(validationMessage == null)
+            if (validationMessage == null)
             {
                 DateTime expDate = Convert.ToDateTime(expDateStr);
                 int price = Convert.ToInt32(priceStr);

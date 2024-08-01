@@ -1,4 +1,5 @@
 ﻿using Solo_GymMe.Handler;
+using Solo_GymMe.Model;
 using Solo_GymMe.Repository;
 using System;
 using System.Collections.Generic;
@@ -76,6 +77,9 @@ namespace Solo_GymMe.Controller
         {
             return UserHandler.InsertUser(username, email, dob, gender, role, password);
         }
-
+        public static MsUser GetUserID(int userID)
+        {
+            return UserHandler.GetUserID(userID);
+        }
     }
 }

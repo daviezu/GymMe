@@ -21,14 +21,19 @@
                             <asp:LinkButton ID="btnLogoutCustomer" runat="server" OnClick="btnLogout_Click">Logout</asp:LinkButton></li>
                     </asp:Panel>
                     <asp:Panel ID="adminNav" runat="server" Visible="false">
+                        <li><a href="Home.aspx">Home</a></li>
+                        <li><a href="ManageSupplement.aspx">Manage Supplement</a></li>
+                        <li><a>Order Queue</a></li>
+                        <li><a href="Profile.aspx">Profile</a></li>
+                        <li><a>Transaction Report</a></li>
                         <li>
-                            <asp:LinkButton ID="btnLogoutAdmin" runat="server" OnClick="btnLogout_Click"></asp:LinkButton></li>
+                            <asp:LinkButton ID="btnLogoutAdmin" runat="server" OnClick="btnLogout_Click">Logout</asp:LinkButton></li>
                     </asp:Panel>
                 </ul>
             </nav>
+        </div>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-        </div>
     </form>
 </body>
 </html>
