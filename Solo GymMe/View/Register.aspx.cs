@@ -32,7 +32,7 @@ namespace Solo_GymMe.View
                 if (Page.IsValid)
                 {
                     string role = "Customer";
-                    lblMessage.Text = UserRepository.InsertUser(username, email, dt, gender, role, password);
+                    lblMessage.Text = UserController.InsertUser(username, email, dt, gender, role, password);
                     Response.Redirect("~/View/Login.aspx");
                 }
             }

@@ -90,7 +90,9 @@
       <LastGenOutput>DatabaseModel.cs</LastGenOutput>
     </Content>
     <Content Include="View\Home.aspx" />
+    <Content Include="View\InsertSupplement.aspx" />
     <Content Include="View\Login.aspx" />
+    <Content Include="View\ManageSupplement.aspx" />
     <Content Include="View\Profile.aspx" />
     <Content Include="View\Register.aspx" />
     <Content Include="Web.config" />
@@ -99,8 +101,11 @@
     <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\RegisterController.cs" />
     <Compile Include="Controller\Singleton.cs" />
+    <Compile Include="Controller\SupplementController.cs" />
     <Compile Include="Controller\UserController.cs" />
+    <Compile Include="Factory\SupplementFactory.cs" />
     <Compile Include="Factory\UserFactory.cs" />
+    <Compile Include="Handler\SupplementHandler.cs" />
     <Compile Include="Handler\UserHandler.cs" />
     <Compile Include="Model\DatabaseModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -136,6 +141,7 @@
       <DependentUpon>DatabaseModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\SupplementRepository.cs" />
     <Compile Include="Repository\UserRepository.cs" />
     <Compile Include="View\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
@@ -144,12 +150,26 @@
     <Compile Include="View\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="View\InsertSupplement.aspx.cs">
+      <DependentUpon>InsertSupplement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\InsertSupplement.aspx.designer.cs">
+      <DependentUpon>InsertSupplement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="View\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="View\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\ManageSupplement.aspx.cs">
+      <DependentUpon>ManageSupplement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\ManageSupplement.aspx.designer.cs">
+      <DependentUpon>ManageSupplement.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\Master\Template.Master.cs">
       <DependentUpon>Template.Master</DependentUpon>

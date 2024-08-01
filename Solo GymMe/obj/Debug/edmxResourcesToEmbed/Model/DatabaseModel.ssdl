@@ -23,7 +23,7 @@
     <Key>
       <PropertyRef Name="SupplementTypeID" />
     </Key>
-    <Property Name="SupplementTypeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SupplementTypeID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
     <Property Name="SupplementTypeName" Type="varchar" MaxLength="100" Nullable="false" />
   </EntityType>
   <EntityType Name="MsUser">
