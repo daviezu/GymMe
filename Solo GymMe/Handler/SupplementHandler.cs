@@ -29,5 +29,10 @@ namespace Solo_GymMe.Handler
         {  
             return SupplementRepository.DeleteSupplement(id) ? "Supplement deleted succesfully" : "Failed to delete supplement.";
         }
+
+        public static MsSupplement GetSupplementByID(int suppID)
+        {
+            return SupplementRepository.GetSupplementByID(suppID);
+        }
     }
 }

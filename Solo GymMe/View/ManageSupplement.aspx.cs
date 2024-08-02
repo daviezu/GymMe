@@ -32,8 +32,13 @@ namespace Solo_GymMe.View
 
         protected void ManageSuppGV_RowUpdating(object sender, GridViewUpdateEventArgs e)
         {
-            int suppID = Convert.ToInt32(ManageSuppGV.DataKeys[e.RowIndex].Value);
-            Response.Redirect("~/View/UpdateSupplement.aspx?ID=" +suppID);
+            if (ManageSuppGV.DataKeys != null && ManageSuppGV.DataKeys[e.RowIndex].Value != null)
+            {
+                int suppID = Convert.ToInt32(ManageSuppGV.DataKeys[e.RowIndex].Value);
+                Debug.WriteLine(suppID);
+                Response.Redirect("~/View/UpdateSupplement.aspx?SupplementID=" + suppID);
+            }
+            else lblMessage.Text = "Not valid credentials";
         }
 
         protected void ManageSuppGV_RowDeleting(object sender, GridViewDeleteEventArgs e)

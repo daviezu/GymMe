@@ -76,5 +76,10 @@ namespace Solo_GymMe.Controller
         {
             return SupplementHandler.DeleteSupplement(id);
         }
+
+        public static MsSupplement GetSupplementByID(int suppID)
+        {
+            return SupplementHandler.GetSupplementByID(suppID);
+        }
     }
 }

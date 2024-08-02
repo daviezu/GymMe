@@ -1,5 +1,6 @@
 ﻿using Solo_GymMe.Controller;
 using Solo_GymMe.Model;
+using Solo_GymMe.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,24 @@ namespace Solo_GymMe.View
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                LoadSupplement();
+            }
+        }
 
+        private void LoadSupplement()
+        {
+            int suppID = Convert.ToInt32(Request.QueryString["SupplementID"]);
+            MsSupplement findSupp = SupplementController.GetSupplementByID(suppID);
+            if (findSupp != null)
+            {
+                txtSupplementName.Text = findSupp.SupplementName;
+                txtExpDate.Text = findSupp.SupplementExpiryDate.ToString("dd MMMM yyyy");
+                txtSupplementPrice.Text = findSupp.SupplementPrice.ToString();
+                txtTypeID.Text = findSupp.SupplementTypeID.ToString();
+            }
+            else lblMessage.Text = "Supplement doesn't exist.";
         }
 
         //protected void calDOB_SelectionChanged(object sender, EventArgs e)
