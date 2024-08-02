@@ -25,6 +25,29 @@ namespace Solo_GymMe.View
             OrderSuppGV.DataBind();
         }
 
+        private void RefreshCart()
+        {
+            MsUser getUser = Session["User"] as MsUser;
+            List<MsCart> cartList = CartController.GetCartByUserID(getUser.UserID);
+
+            CartGV.DataSource = cartList;
+            CartGV.DataBind();
+
+            foreach(GridViewRow checkoutRow in CartGV.Rows)
+            {
+                int rowIndex = checkoutRow.RowIndex;
+                int quantity = Convert.ToInt32(checkoutRow.Cells[3].Text);
+                int price = Convert.ToInt32(cartList[rowIndex].MsSupplement.SupplementPrice);
+                int subTotal = quantity * price;
+
+                Label subTotalLabel = (Label)checkoutRow.FindControl("lblSubTotal");
+                subTotalLabel.Text = subTotal.ToString();
+            }
+
+            int totalPrice = cartList.Sum(item => item.Quantity * item.MsSupplement.SupplementPrice);
+            lblTotalPrice.Text = totalPrice.ToString();
+
+        }
         protected void btnOrder_Click(object sender, EventArgs e)
         {
             Button btnOrder = (Button)sender;   
@@ -49,8 +72,19 @@ namespace Solo_GymMe.View
                 // insert to cart
 
                 lblMessage.Text = CartController.insertCart(userID, suppID, quantity);
+                RefreshCart();
             }
             else lblMessage.Text = validationMessage;   
+        }
+
+        protected void btnClearCart_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void btnCheckout_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

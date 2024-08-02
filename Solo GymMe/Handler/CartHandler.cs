@@ -14,5 +14,10 @@ namespace Solo_GymMe.Handler
         {
             return CartRepository.insertCart(userID, suppID, quantity) ? "Cart inserted succesfully" : "Failed to insert to cart";
         }
+
+        public static List<MsCart> GetCartByUserID(int userID)
+        {
+            return CartRepository.GetCartByUserID(userID);
+        }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Solo_GymMe.Handler;
+using Solo_GymMe.Model;
 using Solo_GymMe.Repository;
 using System;
 using System.Collections.Generic;
@@ -21,6 +22,11 @@ namespace Solo_GymMe.Controller
         public static string insertCart(int userID, int suppID, int quantity)
         {
             return CartHandler.insertCart(userID, suppID, quantity);
+        }
+
+        public static List<MsCart> GetCartByUserID(int userID)
+        {
+            return CartHandler.GetCartByUserID(userID);
         }
     }
 }

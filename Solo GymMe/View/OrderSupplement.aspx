@@ -27,8 +27,17 @@
                 <asp:BoundField DataField="UserID" HeaderText="UserID" SortExpression="UserID" />
                 <asp:BoundField DataField="SupplementID" HeaderText="SupplementID" SortExpression="SupplementID" />
                 <asp:BoundField DataField="Quantity" HeaderText="Quantity" SortExpression="Quantity" />
+                <asp:TemplateField HeaderText="SubTotal">
+                    <ItemTemplate>
+                        <asp:Label ID="lblSubTotal" Text="" runat="server" />
+                    </ItemTemplate>
+                </asp:TemplateField>
             </Columns>
-
         </asp:GridView>
+        Total Price: <asp:Label ID="lblTotalPrice" Text="" runat="server" />
+    </div>
+    <div>
+        <asp:Button ID="btnClearCart" Text="Clear Cart" runat="server" OnClick="btnClearCart_Click"/>
+        <asp:Button ID="btnCheckout" Text="Checkout" runat="server" OnClick="btnCheckout_Click" />
     </div>
 </asp:Content>

@@ -16,11 +16,23 @@ namespace Solo_GymMe.Repository
             MsCart newCart = CartFactory.createCart(userID, suppID, quantity);
             if (newCart != null)
             {
+
                 db.MsCarts.Add(newCart);
                 db.SaveChanges();
                 return true;
             }
             return false;
         }
+
+        public static List<MsCart> GetCartByUserID(int userID)
+        {
+            return (from user in db.MsCarts where user.UserID == userID select user).ToList();
+        }
+
+        public static List<MsCart> GroupSameCart(int suppID)
+        {
+            return (from cart in db.MsCarts where cart.SupplementID == suppID select cart).ToList();
+        }
+
     }
 }
