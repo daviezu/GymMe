@@ -93,19 +93,25 @@
     <Content Include="View\InsertSupplement.aspx" />
     <Content Include="View\Login.aspx" />
     <Content Include="View\ManageSupplement.aspx" />
+    <Content Include="View\OrderSupplement.aspx" />
     <Content Include="View\Profile.aspx" />
     <Content Include="View\Register.aspx" />
+    <Content Include="View\TransactionDetail.aspx" />
+    <Content Include="View\TransactionHistory.aspx" />
     <Content Include="View\UpdateSupplement.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controller\CartController.cs" />
     <Compile Include="Controller\LoginController.cs" />
     <Compile Include="Controller\RegisterController.cs" />
     <Compile Include="Controller\Singleton.cs" />
     <Compile Include="Controller\SupplementController.cs" />
     <Compile Include="Controller\UserController.cs" />
+    <Compile Include="Factory\CartFactory.cs" />
     <Compile Include="Factory\SupplementFactory.cs" />
     <Compile Include="Factory\UserFactory.cs" />
+    <Compile Include="Handler\CartHandler.cs" />
     <Compile Include="Handler\SupplementHandler.cs" />
     <Compile Include="Handler\UserHandler.cs" />
     <Compile Include="Model\DatabaseModel.Context.cs">
@@ -142,6 +148,7 @@
       <DependentUpon>DatabaseModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\CartRepository.cs" />
     <Compile Include="Repository\SupplementRepository.cs" />
     <Compile Include="Repository\UserRepository.cs" />
     <Compile Include="View\Home.aspx.cs">
@@ -179,6 +186,13 @@
     <Compile Include="View\Master\Template.Master.designer.cs">
       <DependentUpon>Template.Master</DependentUpon>
     </Compile>
+    <Compile Include="View\OrderSupplement.aspx.cs">
+      <DependentUpon>OrderSupplement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\OrderSupplement.aspx.designer.cs">
+      <DependentUpon>OrderSupplement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="View\Profile.aspx.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -192,6 +206,20 @@
     </Compile>
     <Compile Include="View\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\TransactionDetail.aspx.cs">
+      <DependentUpon>TransactionDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\TransactionDetail.aspx.designer.cs">
+      <DependentUpon>TransactionDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\TransactionHistory.aspx.cs">
+      <DependentUpon>TransactionHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\TransactionHistory.aspx.designer.cs">
+      <DependentUpon>TransactionHistory.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\UpdateSupplement.aspx.cs">
       <DependentUpon>UpdateSupplement.aspx</DependentUpon>
