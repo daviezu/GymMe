@@ -1,4 +1,5 @@
 ﻿using Solo_GymMe.Handler;
+using Solo_GymMe.Model;
 using Solo_GymMe.Repository;
 using System;
 using System.Collections.Generic;
@@ -59,6 +60,21 @@ namespace Solo_GymMe.Controller
             }
 
             return null;
+        }
+
+        public static string UpdateSupplement(int suppID, string suppName, int price, DateTime expiryDate, int suppTypeID)
+        {
+            return SupplementHandler.UpdateSupplement(suppID, suppName, price, expiryDate, suppTypeID);
+        }
+
+        public static List<MsSupplement> GetAllSupplement()
+        {
+            return SupplementHandler.GetAllSupplement();
+        }
+
+        public static string DeleteSupplement(int id)
+        {
+            return SupplementHandler.DeleteSupplement(id);
         }
     }
 }

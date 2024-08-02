@@ -14,5 +14,20 @@ namespace Solo_GymMe.Handler
         {
             return SupplementRepository.InsertSupplement(suppName, price, expiryDate, suppTypeID);
         }
+
+        public static string UpdateSupplement(int suppID, string suppName, int price, DateTime expiryDate, int suppTypeID)
+        {
+            return SupplementRepository.UpdateSupplement(suppID, suppName, price, expiryDate, suppTypeID) ? "Supplement updated succesfully" : "Failed to update supplement";
+        }
+
+        public static List<MsSupplement> GetAllSupplement()
+        {
+            return SupplementRepository.GetAllSupplement();
+        }
+
+        public static string DeleteSupplement(int id)
+        {  
+            return SupplementRepository.DeleteSupplement(id) ? "Supplement deleted succesfully" : "Failed to delete supplement.";
+        }
     }
 }
