@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Solo_GymMe.Controller;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,20 @@ namespace Solo_GymMe.View
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                TransactionHistoryGV.DataSource = OrderController.GetAllTransaction();
+                TransactionHistoryGV.DataBind();
+            }
+        }
 
+        protected void btnDetail_Click(object sender, EventArgs e)
+        {
+            Button btnOrder = (Button)sender;
+            GridViewRow row = (GridViewRow)btnOrder.NamingContainer;
+
+            int ID = Convert.ToInt32(TransactionHistoryGV.DataKeys[row.RowIndex].Value);
+            Response.Redirect("~/View/TransactionDetailPage.aspx?ID="+ID);
         }
     }
 }

@@ -73,6 +73,7 @@ namespace Solo_GymMe.View
                 // insert to cart
 
                 CartController.checkInsertCart(userID, suppID, quantity);
+                txtQuantity.Text = "";
                 RefreshCart();
             }
             else lblMessage.Text = validationMessage;   

@@ -35,16 +35,26 @@ namespace Solo_GymMe.Repository
                 DateTime currTime = DateTime.Now;
                 string status = "unhandled";
                 // Create transaction header
-                TransactionHeader th = TransactionRepository.InsertTransactionHeader(userID, currTime, status);
+                TransactionHeader th = InsertTransactionHeader(userID, currTime, status);
 
                 foreach(var cart in cartItem)
                 {
-                    TransactionDetail td = TransactionRepository.InsertTransactionDetail(th.TransactionID, cart.SupplementID, cart.Quantity);
+                    TransactionDetail td = InsertTransactionDetail(th.TransactionID, cart.SupplementID, cart.Quantity);
                     CartController.DeleteCart(cart);
                 }
                 return true;
             }
             return false;
+        }
+
+        public static List<TransactionHeader> GetAllTransactionHeader()
+        {
+            return db.TransactionHeaders.ToList();
+        }
+
+        public static List<TransactionDetail> GetTransactionDetailByID(int transactionID)
+        {
+            return (from td in db.TransactionDetails where  td.TransactionID == transactionID select td).ToList();
         }
     }
 }
