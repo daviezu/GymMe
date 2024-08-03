@@ -19,9 +19,9 @@ namespace Solo_GymMe.Controller
             return null;
         }
 
-        public static string insertCart(int userID, int suppID, int quantity)
+        public static void checkInsertCart(int userID, int suppID, int quantity)
         {
-            return CartHandler.insertCart(userID, suppID, quantity);
+            CartHandler.checkInsertCart(userID, suppID, quantity);
         }
 
         public static List<MsCart> GetCartByUserID(int userID)

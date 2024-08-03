@@ -1,5 +1,6 @@
 ﻿using Solo_GymMe.Controller;
 using Solo_GymMe.Model;
+using Solo_GymMe.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -71,7 +72,7 @@ namespace Solo_GymMe.View
 
                 // insert to cart
 
-                lblMessage.Text = CartController.insertCart(userID, suppID, quantity);
+                CartController.checkInsertCart(userID, suppID, quantity);
                 RefreshCart();
             }
             else lblMessage.Text = validationMessage;   

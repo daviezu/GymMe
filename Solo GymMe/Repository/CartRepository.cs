@@ -11,40 +11,27 @@ namespace Solo_GymMe.Repository
     public class CartRepository
     {
         static LocalDatabaseEntities db = Singleton.GetInstance();
-        public static bool insertCart(int userID, int suppID, int quantity)
+
+        public static void checkInsertCart(int userID, int suppID, int quantity)
         {
-            bool checkCart = CheckSameCart(userID, suppID, quantity);
-            if (checkCart)
+            MsCart checkCart = (from c in db.MsCarts where c.UserID == userID && c.SupplementID == suppID select c).FirstOrDefault();
+            if(checkCart != null)
             {
-                return false;
+                checkCart.Quantity += quantity;
+                db.SaveChanges();
             }
-            MsCart newCart = CartFactory.createCart(userID, suppID, quantity);
-            if (newCart != null)
+            else
             {
+                MsCart newCart = CartFactory.createCart(userID, suppID, quantity);
                 db.MsCarts.Add(newCart);
                 db.SaveChanges();
-                return true;
             }
-            return false;
         }
 
         public static List<MsCart> GetCartByUserID(int userID)
         {
             return (from user in db.MsCarts where user.UserID == userID select user).ToList();
         }
-
-        public static bool CheckSameCart(int suppID, int userID, int quantity)
-        {
-            MsCart CartToCheck = (from cart in db.MsCarts where cart.SupplementID == suppID && cart.UserID == userID select cart).FirstOrDefault();
-            if (CartToCheck != null)
-            {
-                CartToCheck.Quantity += quantity;
-                db.SaveChanges();
-                return true;
-            }
-            return false;
-        }
-
         public static bool ClearCart(int userID)
         {
             var cartList = db.MsCarts.Where(c => c.UserID == userID).ToList();
@@ -56,7 +43,6 @@ namespace Solo_GymMe.Repository
             }
             return false;
         }
-
 
         public static bool DeleteCart(MsCart cart)
         {

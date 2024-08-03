@@ -10,9 +10,9 @@ namespace Solo_GymMe.Handler
 {
     public class CartHandler
     {
-        public static string insertCart(int userID, int suppID, int quantity)
+        public static void checkInsertCart(int userID, int suppID, int quantity)
         {
-            return CartRepository.insertCart(userID, suppID, quantity) ? "Cart inserted succesfully" : "Failed to insert to cart";
+            CartRepository.checkInsertCart(userID, suppID, quantity);
         }
 
         public static List<MsCart> GetCartByUserID(int userID)
