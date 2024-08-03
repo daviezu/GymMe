@@ -24,8 +24,8 @@ namespace Solo_GymMe.View
             Button btnOrder = (Button)sender;
             GridViewRow row = (GridViewRow)btnOrder.NamingContainer;
 
-            int ID = Convert.ToInt32(TransactionHistoryGV.DataKeys[row.RowIndex].Value);
-            Response.Redirect("~/View/TransactionDetailPage.aspx?ID="+ID);
+            int TransactionID = Convert.ToInt32(TransactionHistoryGV.DataKeys[row.RowIndex].Value);
+            Response.Redirect("~/View/TransactionDetailPage.aspx?ID="+TransactionID);
         }
     }
 }

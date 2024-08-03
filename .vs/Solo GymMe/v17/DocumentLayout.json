@@ -1,54 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|c:\\users\\asus\\documents\\github\\solo-gymme\\solo gymme\\view\\transactiondetailpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\transactiondetailpage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|c:\\users\\asus\\documents\\github\\solo-gymme\\solo gymme\\view\\transactiondetailpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\transactiondetailpage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|c:\\users\\asus\\documents\\github\\solo-gymme\\solo gymme\\view\\transactionhistory.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\transactionhistory.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|c:\\users\\asus\\documents\\github\\solo-gymme\\solo gymme\\view\\transactionhistory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\transactionhistory.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\solo gymme\\view\\ordersupplement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\ordersupplement.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\solo gymme\\view\\ordersupplement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\view\\ordersupplement.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\solo gymme\\repository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\repository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\solo gymme\\repository\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\repository\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|c:\\users\\asus\\documents\\github\\solo-gymme\\solo gymme\\controller\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\controller\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ASUS_DOCUMENTS_GITHUB_SOLO_GYMME_SOLO_GYMME_APP_DATA_LOCALDATABASE.MDF/True/SqlTable/dbo.TransactionDetail.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ASUS_DOCUMENTS_GITHUB_SOLO_GYMME_SOLO_GYMME_APP_DATA_LOCALDATABASE.MDF/True/SqlTable/dbo.TransactionHeader.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|c:\\users\\asus\\documents\\github\\solo-gymme\\solo gymme\\handler\\orderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A4C2DBD-A1F3-47FE-BC3E-8B89AB3F0F81}|Solo GymMe\\Solo GymMe.csproj|solutionrelative:solo gymme\\handler\\orderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -56,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,156 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TransactionDetailPage.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\TransactionDetailPage.aspx.cs",
-              "RelativeDocumentMoniker": "Solo GymMe\\View\\TransactionDetailPage.aspx.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\TransactionDetailPage.aspx.cs",
-              "RelativeToolTip": "Solo GymMe\\View\\TransactionDetailPage.aspx.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAIwA4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T22:21:19.558Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TransactionDetailPage.aspx",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\TransactionDetailPage.aspx",
-              "RelativeDocumentMoniker": "Solo GymMe\\View\\TransactionDetailPage.aspx",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\TransactionDetailPage.aspx",
-              "RelativeToolTip": "Solo GymMe\\View\\TransactionDetailPage.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-08-03T22:21:01.974Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "dbo.TransactionHeader [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ASUS_DOCUMENTS_GITHUB_SOLO_GYMME_SOLO_GYMME_APP_DATA_LOCALDATABASE.MDF/True/SqlTable/dbo.TransactionHeader.sql",
-              "ToolTip": "dbo.TransactionHeader [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-03T22:06:22.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "dbo.TransactionDetail [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_ASUS_DOCUMENTS_GITHUB_SOLO_GYMME_SOLO_GYMME_APP_DATA_LOCALDATABASE.MDF/True/SqlTable/dbo.TransactionDetail.sql",
-              "ToolTip": "dbo.TransactionDetail [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-03T22:06:14.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\Controller\\OrderController.cs",
-              "RelativeDocumentMoniker": "Solo GymMe\\Controller\\OrderController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\Controller\\OrderController.cs",
-              "RelativeToolTip": "Solo GymMe\\Controller\\OrderController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T22:01:19.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OrderHandler.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\Handler\\OrderHandler.cs",
-              "RelativeDocumentMoniker": "Solo GymMe\\Handler\\OrderHandler.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\Handler\\OrderHandler.cs",
-              "RelativeToolTip": "Solo GymMe\\Handler\\OrderHandler.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T22:00:49.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TransactionHistory.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\TransactionHistory.aspx.cs",
-              "RelativeDocumentMoniker": "Solo GymMe\\View\\TransactionHistory.aspx.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\TransactionHistory.aspx.cs",
-              "RelativeToolTip": "Solo GymMe\\View\\TransactionHistory.aspx.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA8wBoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T21:47:46.494Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TransactionHistory.aspx",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\TransactionHistory.aspx",
-              "RelativeDocumentMoniker": "Solo GymMe\\View\\TransactionHistory.aspx",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\TransactionHistory.aspx",
-              "RelativeToolTip": "Solo GymMe\\View\\TransactionHistory.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-08-03T21:42:20.222Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TransactionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\Repository\\TransactionRepository.cs",
-              "RelativeDocumentMoniker": "Solo GymMe\\Repository\\TransactionRepository.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\Repository\\TransactionRepository.cs",
-              "RelativeToolTip": "Solo GymMe\\Repository\\TransactionRepository.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAewDkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-03T07:00:34.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CartRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\Repository\\CartRepository.cs",
-              "RelativeDocumentMoniker": "Solo GymMe\\Repository\\CartRepository.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\Repository\\CartRepository.cs",
-              "RelativeToolTip": "Solo GymMe\\Repository\\CartRepository.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAcwDcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T06:31:08.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderSupplement.aspx",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\OrderSupplement.aspx",
-              "RelativeDocumentMoniker": "Solo GymMe\\View\\OrderSupplement.aspx",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\OrderSupplement.aspx",
-              "RelativeToolTip": "Solo GymMe\\View\\OrderSupplement.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-08-02T03:13:29.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderSupplement.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\OrderSupplement.aspx.cs",
-              "RelativeDocumentMoniker": "Solo GymMe\\View\\OrderSupplement.aspx.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Documents\\GitHub\\Solo-GymMe\\Solo GymMe\\View\\OrderSupplement.aspx.cs",
-              "RelativeToolTip": "Solo GymMe\\View\\OrderSupplement.aspx.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAkwEMAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T04:01:19.409Z",
-              "EditorCaption": ""
             }
           ]
         }

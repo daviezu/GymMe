@@ -3,6 +3,7 @@ using Solo_GymMe.Model;
 using Solo_GymMe.Repository;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Web;
 
@@ -13,6 +14,11 @@ namespace Solo_GymMe.Controller
         public static List<TransactionHeader> GetAllTransaction()
         {
             return OrderHandler.GetAllTransactionHeader();
+        }
+
+        public static void UpdateStatus(int transactionID)
+        {
+            OrderHandler.UpdateStatus(transactionID);
         }
     }
 }

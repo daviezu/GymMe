@@ -98,6 +98,7 @@
     <Content Include="View\Register.aspx" />
     <Content Include="View\TransactionDetailPage.aspx" />
     <Content Include="View\TransactionHistory.aspx" />
+    <Content Include="View\TransactionQueue.aspx" />
     <Content Include="View\UpdateSupplement.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -224,6 +225,13 @@
     </Compile>
     <Compile Include="View\TransactionHistory.aspx.designer.cs">
       <DependentUpon>TransactionHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="View\TransactionQueue.aspx.cs">
+      <DependentUpon>TransactionQueue.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="View\TransactionQueue.aspx.designer.cs">
+      <DependentUpon>TransactionQueue.aspx</DependentUpon>
     </Compile>
     <Compile Include="View\UpdateSupplement.aspx.cs">
       <DependentUpon>UpdateSupplement.aspx</DependentUpon>

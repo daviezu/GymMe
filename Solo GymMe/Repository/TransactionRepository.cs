@@ -54,7 +54,22 @@ namespace Solo_GymMe.Repository
 
         public static List<TransactionDetail> GetTransactionDetailByID(int transactionID)
         {
-            return (from td in db.TransactionDetails where  td.TransactionID == transactionID select td).ToList();
+            return (from td in db.TransactionDetails where td.TransactionID == transactionID select td).ToList();
+        }
+
+        public static TransactionHeader GetTransactionHeaderByID(int transactionID)
+        {
+            return (from th in db.TransactionHeaders where th.TransactionID == transactionID select th).FirstOrDefault();
+        }
+
+        public static void UpdateStatus(int transactionID)
+        {
+            TransactionHeader t = GetTransactionHeaderByID(transactionID);
+            if(t != null)
+            {
+                t.Status = "handled";
+                db.SaveChanges();
+            }
         }
     }
 }

@@ -13,5 +13,10 @@ namespace Solo_GymMe.Handler
         {
             return TransactionRepository.GetAllTransactionHeader();
         }
+
+        public static void UpdateStatus(int transactionID)
+        {
+            TransactionRepository.UpdateStatus(transactionID);
+        }
     }
 }
