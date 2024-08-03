@@ -38,5 +38,10 @@ namespace Solo_GymMe.Controller
         {
             return CartHandler.DeleteCart(cart);
         }
+
+        public static string CheckoutCart(int userID)
+        {
+            return TransactionRepository.MakeTransaction(userID) ? "Checkout Success" : "Failed to checkout";
+        }
     }
 }

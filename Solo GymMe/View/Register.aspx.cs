@@ -33,7 +33,6 @@ namespace Solo_GymMe.View
                 {
                     string role = "Customer";
                     lblMessage.Text = UserController.InsertUser(username, email, dt, gender, role, password);
-                    Response.Redirect("~/View/Login.aspx");
                 }
             }
             else lblMessage.Text = validationMessage;

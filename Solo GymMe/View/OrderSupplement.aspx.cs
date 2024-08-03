@@ -89,8 +89,9 @@ namespace Solo_GymMe.View
         protected void btnCheckout_Click(object sender, EventArgs e)
         {
             MsUser currUser = Session["User"] as MsUser;
-            int userID = currUser.UserID;   
-            //lblMessage.Text = CartController.
+            int userID = currUser.UserID;
+            lblMessage.Text = CartController.CheckoutCart(userID);
+            RefreshCart();
         }
     }
 }

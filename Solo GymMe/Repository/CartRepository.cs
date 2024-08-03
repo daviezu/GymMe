@@ -46,7 +46,7 @@ namespace Solo_GymMe.Repository
 
         public static bool DeleteCart(MsCart cart)
         {
-            if(cart != null)
+            if (cart != null)
             {
                 db.MsCarts.Remove(cart);
                 db.SaveChanges();

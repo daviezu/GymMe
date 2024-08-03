@@ -27,7 +27,7 @@ namespace Solo_GymMe.Handler
 
         public static string DeleteCart(MsCart cart)
         {
-            return CartRepository.DeleteCart(cart)? "Cart deleted succesfully." : "Failed to delete cart.";
+            return CartRepository.DeleteCart(cart) ? "Cart deleted succesfully." : "Failed to delete cart.";
         }
     }
 }
