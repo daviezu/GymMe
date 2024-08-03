@@ -79,12 +79,17 @@ namespace Solo_GymMe.View
 
         protected void btnClearCart_Click(object sender, EventArgs e)
         {
-
+            MsUser currUser = Session["User"] as MsUser;
+            int userID = currUser.UserID;
+            lblMessage.Text = CartController.ClearCart(userID);
+            RefreshCart();
         }
 
         protected void btnCheckout_Click(object sender, EventArgs e)
         {
-
+            MsUser currUser = Session["User"] as MsUser;
+            int userID = currUser.UserID;   
+            //lblMessage.Text = CartController.
         }
     }
 }

@@ -19,5 +19,15 @@ namespace Solo_GymMe.Handler
         {
             return CartRepository.GetCartByUserID(userID);
         }
+
+        public static string ClearCart(int userID)
+        {
+            return CartRepository.ClearCart(userID) ? "Clear cart complete." : "Failed to clear cart";
+        }
+
+        public static string DeleteCart(MsCart cart)
+        {
+            return CartRepository.DeleteCart(cart)? "Cart deleted succesfully." : "Failed to delete cart.";
+        }
     }
 }

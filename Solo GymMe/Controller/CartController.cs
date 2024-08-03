@@ -28,5 +28,15 @@ namespace Solo_GymMe.Controller
         {
             return CartHandler.GetCartByUserID(userID);
         }
+
+        public static string ClearCart(int userID)
+        {
+            return CartHandler.ClearCart(userID);
+        }
+
+        public static string DeleteCart(MsCart cart)
+        {
+            return CartHandler.DeleteCart(cart);
+        }
     }
 }
