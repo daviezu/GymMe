@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Template.master.cs" Inherits="Solo_GymMe.View.Master.Template" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav>
+                <ul>
+                    <asp:Panel ID="customerNav" runat="server" Visible="false">
+                        <li><a href="OrderSupplement.aspx">Order Supplement</a></li>
+                        <li><a href="TransactionHistory.aspx">History</a></li>
+                        <li><a href="Profile.aspx">Profile</a></li>
+                        <li>
+                            <asp:LinkButton ID="btnLogoutCustomer" runat="server" OnClick="btnLogout_Click">Logout</asp:LinkButton></li>
+                    </asp:Panel>
+                    <asp:Panel ID="adminNav" runat="server" Visible="false">
+                        <li><a href="Home.aspx">Home</a></li>
+                        <li><a href="TransactionHistory.aspx">History</a></li>
+                        <li><a href="ManageSupplement.aspx">Manage Supplement</a></li>
+                        <li><a href="TransactionQueue.aspx">Order Queue</a></li>
+                        <li><a href="Profile.aspx">Profile</a></li>
+                        <li><a>Transaction Report</a></li>
+                        <li>
+                            <asp:LinkButton ID="btnLogoutAdmin" runat="server" OnClick="btnLogout_Click">Logout</asp:LinkButton></li>
+                    </asp:Panel>
+                </ul>
+            </nav>
+        </div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
